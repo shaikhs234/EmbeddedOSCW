@@ -168,7 +168,6 @@ struct file_operations hcsr04_fops = { // File operations for the kernel module 
 
 static int __init hcsr04_module_init(void) // Executed as soon as the insmod command is used in the command line of linux
 {
-	printk(KERN_INFO "Loading hcsr04 module");
 	char buffer[64]; 
 	alloc_chrdev_region(&hcsr04_dev, 0, 1, "hcsr04_dev"); 
 	printk(KERN_INFO "%s\n", format_dev_t(buffer, hcsr04_dev)); 
@@ -198,7 +197,7 @@ static void __exit hcsr04_module_cleanup(void) // Executed as soon as the rmmod 
 	cdev_del(&hcsr04_cdev);
 	unregister_chrdev_region( hcsr04_dev, 1 ); // removes the character device from the kernel
 	kobject_put( hcsr04_kobject ); // deletes the /sys/kernel/hcsr04 directory and everything under it
-	printk(KERN_INFO "Cleanup successful");
+	printk(KERN_INFO "Cleanup successful\n");
 }
 
 module_init(hcsr04_module_init); 
