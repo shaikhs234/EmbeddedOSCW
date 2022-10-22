@@ -15,11 +15,11 @@ For Ultrasonic Sensor, VCC goes to any 5v pin on the Raspberry Pi, GND goes to a
 Then Connect Pin 20 of Raspberry Pi to "trig" pin on the sensor and Pin 21 to "echo" pin on the sensor.
 
 
-![image](https://user-images.githubusercontent.com/48800555/197344068-9a4035ad-dd8b-4c30-b584-be406fbc7a33.png=250x250)
+![image](https://user-images.githubusercontent.com/48800555/197344068-9a4035ad-dd8b-4c30-b584-be406fbc7a33.png)
 
-![image](https://user-images.githubusercontent.com/48800555/197344082-f62ebc7e-b314-4fd8-98cf-96e32a9c0da5.png=250x250)
+![image](https://user-images.githubusercontent.com/48800555/197344082-f62ebc7e-b314-4fd8-98cf-96e32a9c0da5.png)
 
-![image](https://user-images.githubusercontent.com/48800555/197344967-ba23378b-2f26-431b-9dda-37079f53cc19.png=250x250)
+![image](https://user-images.githubusercontent.com/48800555/197344967-ba23378b-2f26-431b-9dda-37079f53cc19.png)
 
 
 ## Flashing image
