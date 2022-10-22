@@ -28,7 +28,7 @@ int main(int argc, char **argv)
    		break;
    	case 2: // if an argument is passed, then dont iterate infinitely
    		ch = strtol(argv[1],&ptr,10); // converts the argument being passed from string to integer. ptr is used to check if anything other than a number is passed as an argument.
-   		(ch == 0) ? printf("Please enter integer or non-zero values\n") : (ptr[0] == '\0')  ? printf("Displaying %d values\n", ch) : printf("Ignoring characters after integer value and Displaying %d values.\n",ch); // checks if the user has entered a valid argument
+   		(ch <= 0) ? printf("Please enter integer or non-zero values\n") : (ptr[0] == '\0')  ? printf("Displaying %d values\n", ch) : printf("Ignoring characters after integer value and Displaying %d values.\n",ch); // checks if the user has entered a valid argument
    		infl = 'n';
    		break;
    	default : // if too many arguments are passed or a bug causes the arguments passed to be less than 1
