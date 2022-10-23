@@ -28,5 +28,7 @@ Software setup mentioned in the demonstration video
 Demonstration Video : https://www.youtube.com/watch?v=Qb6IE3HtXx0
 
 
-Power Point Presentation : 
+Power Point Presentation Video : https://www.youtube.com/watch?v=zURPKxc1YoY
+[Power Point Presentation](https://livecoventryac-my.sharepoint.com/:p:/g/personal/shaikhm17_uni_coventry_ac_uk/EdCL4aZUN6FBtE9eZKi2zgkBJvnl_ivdNHapAGGZ1m-NOQ?e=LgXUXB)
+
 
