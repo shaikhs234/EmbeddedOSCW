@@ -22,6 +22,6 @@ Then Connect Pin 20 of Raspberry Pi to "trig" pin on the sensor and Pin 21 to "e
 
 
 
-Power Point Presentation :
+Power Point Presentation : 
 
-Demonstration Video :
+Demonstration Video : https://www.youtube.com/watch?v=Qb6IE3HtXx0
