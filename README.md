@@ -21,4 +21,7 @@ Then Connect Pin 20 of Raspberry Pi to "trig" pin on the sensor and Pin 21 to "e
 <img src="https://user-images.githubusercontent.com/48800555/197344967-ba23378b-2f26-431b-9dda-37079f53cc19.png" width="478" height="274.5">
 
 
-## Flashing image
+
+Power Point Presentation :
+
+Demonstration Video :
