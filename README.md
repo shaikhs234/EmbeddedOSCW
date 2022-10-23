@@ -9,7 +9,7 @@ As github does not allow files larger than 25MB, the built image can be found [h
 ## Connections
 
 Ground of serial cable goes to ground on raspberry pi, Pin 5 (RXD) of serial cable goes to Pin 14 (TXD) on the Raspberry Pi. 
-Pin 4 (RXD) of serial cable goes to Pin 15 (TXD) on the Raspberry Pi.
+Pin 4 (TXD) of serial cable goes to Pin 15 (RXD) on the Raspberry Pi.
 
 For Ultrasonic Sensor, VCC goes to any 5v pin on the Raspberry Pi, GND goes to a ground pin on the Raspberry Pi,
 Then Connect Pin 20 of Raspberry Pi to "trig" pin on the sensor and Pin 21 to "echo" pin on the sensor.
